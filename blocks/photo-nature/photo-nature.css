@@ -1,0 +1,35 @@
+@import url(./__image/photo-nature__image.css);
+
+.photo-nature {
+
+}
+
+.photo-nature__lists {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+    margin: 0;
+    list-style: none;
+    padding: 92px 48px 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .photo-nature__lists {
+        gap: 14px;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .photo-nature__lists {
+        gap: 16px;
+        padding: 88px 24px 0;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .photo-nature__lists {
+        gap: 12px;
+        padding: 64px 16px 0;
+    }
+} 

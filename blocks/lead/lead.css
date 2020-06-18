@@ -1,0 +1,23 @@
+@import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__container/lead__container.css);
+@import url(./__image/lead__image.css);
+@import url(./__image-signature/lead__image-signature.css);
+
+.lead {
+    text-align: center;
+    max-width: 100%;
+    min-width: 320px;
+}
+
+@media screen and (max-width: 1024px) {
+    /*.lead {
+        padding: 0 48px;
+    }*/
+} 
+
+@media screen and (max-width: 1024px) {
+   /* .lead {
+        padding: 0;
+    }*/
+} 

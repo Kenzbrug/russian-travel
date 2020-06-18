@@ -1,0 +1,23 @@
+.lead__image-signature {
+    margin-top: 8px;
+    text-transform: uppercase;
+    text-align: start;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 0.15em;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image-signature {
+        margin-left: 24px;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__image-signature {
+        margin-left: 16px;
+
+    }
+}

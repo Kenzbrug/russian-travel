@@ -1,0 +1,15 @@
+.footer__list{
+
+}
+
+@media screen and (max-width: 320px) {
+    .footer__list {
+        margin-bottom: 32px;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .footer__list:last-of-type {
+        margin-bottom: 48px;
+    }
+} 
