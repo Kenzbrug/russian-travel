@@ -6,9 +6,10 @@
     .places__container {
         margin-left: 24px;
     }
+}
 
 @media screen and (max-width: 320px) {
     .places__container {
         display: none;
     }
-} 
+}

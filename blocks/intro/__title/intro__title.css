@@ -8,14 +8,15 @@
     color: #fff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 510px) {
     .intro__title {
-        font-size: calc(32px + (54 - 32) * ((100vw - 320px) / (768 - 320)));
+        font-size: 40px;
     }
 } 
 
 @media screen and (max-width: 320px) {
     .intro__title {
+        font-size: 32px;
         line-height: 1.1;
     }
 } 
